@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 import java.net.http.HttpResponse
 
 @RestController
-@RequestMapping("api/recarga")
+@RequestMapping("/api/recarga")
 class RecargaController(val repository: RecargaRepository){
 
     @PostMapping
